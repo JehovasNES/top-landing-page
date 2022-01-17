@@ -11,13 +11,13 @@ body {
     align-items: center;
     background-color: #1f2937;
     color: #F9FAF8;
+    padding: 12px;
 }
 
 .right-links {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 ul {
@@ -38,9 +38,9 @@ a {
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .socials {
-    max-width: 50%;
-    max-height: 50%;
+    padding: 15px;
 }
