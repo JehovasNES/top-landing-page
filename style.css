@@ -2,6 +2,7 @@ body {
     font-family: hero-new-hairline, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -32,3 +33,14 @@ a {
     margin: 12px;
 }
 
+.footer {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    max-width: 50%;
+    max-height: 50%;
+}
