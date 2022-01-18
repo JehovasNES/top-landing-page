@@ -38,16 +38,29 @@ a {
     color: #E5E7EB;
 }
 
+.midline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.imgline {
+    display: flex;
+    flex: 1;
+}
+
 .botline {
     background-color: #E5E7EB;
     font: 36px #1F2937;
+    padding: 32px;
 }
 
 .sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .box {
