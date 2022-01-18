@@ -34,8 +34,12 @@ a {
 }
 
 .headerlower {
+    display: flex;
     background-color: #1f2937;
     color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .midline {
@@ -79,8 +83,5 @@ a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.socials {
-    padding: 15px;
+    padding: 12px;
 }
