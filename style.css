@@ -33,6 +33,33 @@ a {
     margin: 12px;
 }
 
+.headerlower {
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
+
+.botline {
+    background-color: #E5E7EB;
+    font: 36px #1F2937;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    background-color: #3882F6;
+    width: 400px;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
 .footer {
     display: flex;
     background-color: #E5E7EB;
