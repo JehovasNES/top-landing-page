@@ -42,6 +42,22 @@ a {
     flex-direction: column;
 }
 
+.hl-img {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    padding: 40px;
+    flex-direction: column;
+    width: 400px;
+}
+
+.hl-img-two {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    justify-content: flex-end;
+}
+
 .midline {
     display: flex;
     justify-content: center;
@@ -75,16 +91,18 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 180px;
 }
 
 .box {
     background-color: #3882F6;
-    width: 400px;
+    width: 750px;
     display: flex;
     padding: 20px;
     margin: 20px;
     justify-content: space-between;
     border-radius: 5px;
+
 }
 
 .footer {
