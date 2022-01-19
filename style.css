@@ -53,6 +53,16 @@ a {
 .imgline {
     display: flex;
     flex: 1;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.square {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: #3882F6;
+    border-radius: 5px;
 }
 
 .botline {
