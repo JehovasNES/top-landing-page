@@ -1,6 +1,6 @@
 # top-landing-page
-A landing page done alongside the odin project.
 
-Completed following The Odin Project Schematics with minor design differences.
+A landing page project that was completed for The Odin Project.
+This project was made from scratch using the schematics TOP provided. HTML + CSS.
 
-Coded from scratch using HTML, CSS and Flexbox.
+All photos belong to their respective owner and I claim no ownership of these images. If you own an image and would like it removed please let me know.
