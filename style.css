@@ -119,6 +119,10 @@ a {
     padding: 12px;
 }
 
+.socials {
+    display: flex;
+    gap: 64px;
+}
 
 /* pushes the footer to the bottom of the page, even when lacking enough content to fill the page */
 .flex-wrapper {
@@ -126,4 +130,14 @@ a {
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.box button {
+    height: 50px;
+    width: 100px;
+}
+
+.hl-img button {
+    height: 50px;
+    width: 100px;
 }
