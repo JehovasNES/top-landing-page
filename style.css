@@ -137,7 +137,7 @@ a {
     gap: 64px;
 }
 
-/* pushes the footer to the bottom of the page, even when lacking enough content to fill the page */
+/* push the footer to the bottom of the page, even when lacking enough content to fill the page */
 .flex-wrapper {
     display: flex;
     min-height: 100vh;
@@ -145,7 +145,18 @@ a {
     justify-content: space-between;
 }
 
+/* adjust button for bottom sign up box */
 .box button {
+    height: 25px;
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+/* adjust button for top sign up */
+.hl-img button {
     height: 25px;
     width: 100px;
     background-color: #3882F6;
@@ -153,10 +164,16 @@ a {
     border-radius: 5px;
 }
 
-.hl-img button {
-    height: 25px;
-    width: 100px;
-    background-color: #3882F6;
-    color: white;
-    border-radius: 5px;
+.mvbox {
+    margin-left: 50px;
+}
+
+.box h6 {
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.box p {
+    font-weight: bold;
+    margin-bottom: 5px;
 }
