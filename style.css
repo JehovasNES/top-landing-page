@@ -178,3 +178,7 @@ a {
     margin-bottom: 5px;
 }
 
+.artifact {
+    max-width: 64px;
+    max-height: auto;
+}
