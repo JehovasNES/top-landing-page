@@ -188,12 +188,17 @@ a {
 }
 
 /* adjust button for top sign up */
-.hl-img button {
+.hl-img a {
+    display: flex;
     height: 25px;
     width: 100px;
     background-color: #3882F6;
     color: white;
     border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    border: 1px white solid;
 }
 
 .mvbox {
