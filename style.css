@@ -51,11 +51,17 @@ a {
 }
 
 .hl-img-two {
-    height: 200px;
-    width: 400px;
-    background: #3882F6;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    padding: 50px;
+    flex: 1;
+}
+
+.hl-img-two img {
+    border: #3882F6 2px solid;
     border-radius: 5px;
-    margin-right: 70px;
 }
 
 .midline {
