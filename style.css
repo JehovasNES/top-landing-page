@@ -77,12 +77,27 @@ a {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    width: 700px;
+    width: 1500px;
     flex-wrap: wrap;
 }
 
 .align-img {
     flex-wrap: wrap;
+}
+
+.align-img img {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border: #3882F6 4px solid;
+    border-radius: 5px;
+}
+
+.align-img p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
 }
 
 .square {
