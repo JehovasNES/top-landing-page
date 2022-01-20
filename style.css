@@ -51,12 +51,10 @@ a {
 .hl-img-two {
     height: 100px;
     width: 100px;
-
     width: 100px;
     height: 100px;
     background: #3882F6;
     border-radius: 5px;
-
     margin-right: 20px;
 }
 
@@ -66,6 +64,7 @@ a {
     align-items: center;
     flex-direction: column;
     height: 300px;
+    flex: 1;
 }
 
 .imgline {
@@ -73,6 +72,11 @@ a {
     flex: 1;
     justify-content: space-between;
     width: 700px;
+    flex-wrap: wrap;
+}
+
+.align-img {
+    flex-wrap: wrap;
 }
 
 .square {
@@ -112,6 +116,14 @@ a {
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     padding: 12px;
+}
+
+
+/* pushes the footer to the bottom of the page, even when lacking enough content to fill the page */
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
 }
