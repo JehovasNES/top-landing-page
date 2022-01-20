@@ -174,13 +174,17 @@ a {
 }
 
 /* adjust button for bottom sign up box */
-.box button {
-    height: 25px;
+.box a {
+    display: flex;
+    height: auto;
     width: 100px;
     background-color: #3882F6;
     color: white;
     border-radius: 5px;
     margin-right: 50px;
+    border: white 2px solid;
+    justify-content: center;
+    align-items: center;
 }
 
 /* adjust button for top sign up */
@@ -194,6 +198,10 @@ a {
 
 .mvbox {
     margin-left: 50px;
+}
+
+.mvbox h6 {
+    font-size: 10px;
 }
 
 .box h6 {
